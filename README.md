@@ -8,12 +8,15 @@ After Effects Script UI for conveniently rendering frames from Markers and Marke
 4. Open MarkersToFrames.jsx in Windows menu.
 
 ## Usage
+
+![Image](MarkersToFrames_exampleImage.png)
+
 ### Basic Usage
 1. Open the MarkersToFrames ScriptUI Panel.
 2. Create an Output Module for MTF by going to Edit > Template > Output Modules... and making a new one titled "MarkerToFrame." Recommended Settings: PNG Sequence, Trillions of Colors, RGB+A.
 3. Open a composition with Markers in your Timeline or select multiple compositions in your Project panel. (MTF prioritizes compositions selected in the project panel.)
 4. Click Choose Directory to pick your output directory for your Frames.
-5. Press the "M > F" button!
+5. Press the "M > F" button! 
 
 ### Settings
 "Include Marker Names" appends the name/comment attached to a marker to the output frame's filename.
