@@ -17,10 +17,15 @@ After Effects Script UI for conveniently rendering frames from Markers and Marke
 
 ### Settings
 "Include Marker Names" appends the name/comment attached to a marker to the output frame's filename.
+
 "Only Color Markers" will filter all unlabelled markers.
+
 "Use Layer Markers" is enabled by default. When checked, composition and layer markers will be rendered. When unchecked, only composition markers will be rendered. If a Marker is on a layer, its layer name will be included on the marker.
+
 "Use Versioning" will version up your frames each time they are rendered, so long as the amount of frames, placement, and naming is consistent. Otherwise, same markers will be overwritten.
+
 "Render Each Marker's Range" will render every frame within the range of Markers that have a range. This is disabled by default.
+
 "Seperate Output for Ranges" allows you to specify a different type of Output Module for Markers who are rendered as a range. You must make this Output Module and it should be titled "MarkerRangeToFrames"
 
 #### Changelog
